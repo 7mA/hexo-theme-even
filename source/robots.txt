@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /page/
-Disallow: /categories/
 Disallow: /archives/
