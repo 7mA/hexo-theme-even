@@ -30,7 +30,7 @@
   Even.prototype.navbar = function () {
     var $nav = $('#mobile-navbar');
     var $navIcon = $('.mobile-navbar-icon');
-
+ 
     var slideout = new Slideout({
       'panel': document.getElementById('mobile-panel'),
       'menu': document.getElementById('mobile-menu'),
@@ -86,7 +86,7 @@
           $toc.css(tocState.start);
         } else {
           $toc.css(tocState.process);
-          
+
           if($(".post-toc").css("display") != "none"){
             var maxTocTop = $footer.offset().top - $toc.height() - SPACING;
             var tocCenterThreshold = document.documentElement.scrollTop + window.innerHeight / 2;
@@ -210,7 +210,7 @@
           function() {
             var query = new AV.Query(Counter);
             var url = $this.data('url').trim();
-    
+
             query.equalTo('url', url);
             query.find().then(function (results) {
               if (results.length === 0) {
@@ -223,7 +223,7 @@
               // eslint-disable-next-line
               console.log('Error:' + error.code + ' ' + error.message);
             });
-          }, 100*(index++));     
+          }, 100*(index++));
       })
     }
   };

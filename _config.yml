@@ -38,7 +38,7 @@ toc: true
 fancybox: true
 
 # LaTeX support (via MathJax)
-latex: true
+latex: false
 
 copyright:
   enable: false
