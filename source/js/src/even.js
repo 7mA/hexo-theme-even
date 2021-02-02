@@ -30,7 +30,7 @@
   Even.prototype.navbar = function () {
     var $nav = $('#mobile-navbar');
     var $navIcon = $('.mobile-navbar-icon');
- 
+
     var slideout = new Slideout({
       'panel': document.getElementById('mobile-panel'),
       'menu': document.getElementById('mobile-menu'),
