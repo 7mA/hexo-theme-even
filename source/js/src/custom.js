@@ -1,5 +1,5 @@
 $(function(){
-  $('.video-container').each(function() {
+  $('.youtube-container').each(function() {
     var iframe = $(this).children('iframe');
     var url = iframe.attr('data-src');
     var id = url.match(/[\/?=]([a-zA-Z0-9_-]{11})[&\?]?/)[1];
