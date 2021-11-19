@@ -1,1 +1,2 @@
 <script type="text/javascript" src="{{ url_for('js/src') }}/custom.js"></script>
+<script src="{{ url_for('js/src') }}/lite-yt-embed.js"></script>
