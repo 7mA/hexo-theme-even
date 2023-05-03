@@ -77,11 +77,16 @@ social:
 leancloud:
   app_id:
   app_key:
+  server_url:
+  cdn:
 
 # Baidu Analytics
 baidu_analytics:
 # Baidu Verification
 baidu_verification: code-lm6MF8Dhbz
+
+# Baidu push
+baidu_push:
 
 # Google Analytics
 google_analytics:
@@ -128,4 +133,4 @@ utterances:
 # ===========================================
 # Version
 # ===========================================
-version: 2.11.0
+version: 2.11.2
