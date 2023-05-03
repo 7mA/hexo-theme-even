@@ -12,7 +12,7 @@
         <div class="archive-title category">
           <h2 class="archive-name">{{ page.category }}</h2>
         </div>
-      {%- elif isArchivesPage -%}
+      {%- elif isArchivesPage or isArchivesMode-%}
         <div class="archive-title">
           <span class="archive-post-counter">
             {{ _p("counter.archives", site.posts.length) }}
