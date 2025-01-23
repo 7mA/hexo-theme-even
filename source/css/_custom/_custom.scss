@@ -87,4 +87,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-  }
+}
+
+/* 隐藏自带的toc-number */
+span.toc-number {
+	display: none;
+}
